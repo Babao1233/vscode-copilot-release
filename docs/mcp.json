@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "context7-mcp": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@upstash/context7-mcp",
+        "--key",
+        "3cc1a65c-885e-445b-8418-40d41007acb3"
+      ]
+    },
+    "server-sequential-thinking": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@smithery-ai/server-sequential-thinking",
+        "--key",
+        "3cc1a65c-885e-445b-8418-40d41007acb3"
+      ]
+    }
+  }
+}

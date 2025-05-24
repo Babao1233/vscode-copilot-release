@@ -1,0 +1,13 @@
+{
+  "name": "vscode-copilot-release",
+  "version": "1.0.0",
+  "description": "A sample project for GitHub Copilot Agent with CI/CD and MCP integration.",
+  "scripts": {
+    "start": "echo 'No start script defined.'",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "@smithery/sdk": "^1.3.3"
+  }
+}
